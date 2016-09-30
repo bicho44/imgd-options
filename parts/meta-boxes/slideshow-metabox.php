@@ -1,7 +1,7 @@
 <?php
 /*
 Title: Slide Show
-Post Type: page,post,portfolio_item,portfolio_project,product
+Post Type: page,post,portfolio_item,portfolio_project,product,imgd_programa
 Description: Un Meta Box para que este post aparezca en el slideshow del Front Page
 Priority: high
 Order: 3
@@ -15,8 +15,8 @@ piklist (
     array(
         'type' => 'radio',
         'scope' => 'post_meta',
-        'field' => 'imgd_home',
-        'label' => __('Mostrar en Home', 'imgd'),
+        'field' => 'imgd_slideshow',
+        'label' => __('Mostrar en SlideShow', 'imgd'),
         'value' => 0,
         'attributes' => array(
             'class' => 'radio'
@@ -34,15 +34,16 @@ piklist (
     array(
         'type' => 'radio',
         'scope' => 'post_meta',
-        'field' => 'imgd_slideshow',
-        'label' => __('Mostrar en SlideShow', 'imgd'),
+        'field' => 'imgd_home',
+        'label' => __('Destacar', 'imgd'),
+        'description'=>__('Colocar este item en la Home Page en la segunda línea','imgd'),
         'value' => 0,
         'attributes' => array(
             'class' => 'radio'
         ),
         'choices' => array(
-            0 => __('No mostrar', 'imgd'),
-            1 => __('Mostrar', 'imgd')
+            0 => __('No Destacar', 'imgd'),
+            1 => __('Destacar', 'imgd')
         ),
         'position' => 'wrap'
     )

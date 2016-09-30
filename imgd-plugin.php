@@ -57,7 +57,7 @@ function imgd_plugin_setting_pages($pages)
         ,'menu_slug' => 'opciones_imgd'
         ,'setting' => 'opciones_imgd'
         ,'single_line' => true
-        ,'default_tab' => 'General'
+        ,'default_tab' => 'Home'
         ,'save_text' => __('Guardar Settings','imgd')
     );
 
