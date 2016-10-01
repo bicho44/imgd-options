@@ -1,7 +1,7 @@
 <?php
 /*
 Title: Home Page Abby
-Setting: opciones_imgd
+Setting: xopciones_imgd
 Tab: Abby
 Order: 20
 Flow: IMGD Settings

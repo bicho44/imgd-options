@@ -3,7 +3,7 @@
 Plugin Name: IMGD Plugin
 Plugin URI: http://imgdigital.com.ar/imgd_options
 Description: Este es un Plug-in para para mi Framework via piklist
-Version: 1.3
+Version: 1.4
 Author: Federico Reinoso
 Author URI: http://imgdigital.com.ar
 Text Domain: imgd
