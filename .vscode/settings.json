@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Source Code Pro',Menlo, Monaco, 'Courier New', monospace",
+     "git.confirmSync": true,
+     "files.associations": {
+        "*.md": "markdown"
+    },
+    "vsicons.dontShowNewVersionMessage": true
+}
